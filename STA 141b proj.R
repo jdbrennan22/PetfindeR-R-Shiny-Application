@@ -14,6 +14,11 @@ library(httr)
 library(PetfindeR)
 library(DT)
 library(plotly)
+library(rsconnect)
+
+rsconnect::setAccountInfo(name='jdbrennan5395',
+                          token='C7C65D9637552D6B9324AF169544C8D2',
+                          secret='ZwV9OTeh+SBFo2MmFAk9V9NaWtirs63jLeUPL0j+')
 
 pf <- Petfinder(
   key = Sys.getenv("PETFINDER_KEY"),
@@ -352,3 +357,6 @@ server <- function(input, output) {
 }
 
 shinyApp(ui = ui, server = server)
+
+rsconnect::deployApp("C:\\Users\\Jordan\\Downloads\\STA 141b proj.R")
+
