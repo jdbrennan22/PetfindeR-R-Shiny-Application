@@ -1,0 +1,7 @@
+# PetfindeR STA-141b-Project
+
+### The primary goal of this project is to help users access this database through an application, find information that may be beneficial in their pet adoption process, and sort that information in a logical and clear way using data tables and charts. This application will allow users to search for and display pet listings based on various characteristics based on those unique to the pet and output relevant to their search for that given pet. Users may also search for and display animal welfare organizations based on organization name, ID, and location.
+Depending on the needs of the user, they may display a random assortment of available pets for adoption, display pets in various categories, pick pets to choose from based on specific criteria, and view visual representations on pet availability. For this project, our focus is to display the pets available in California, narrowing our database to just one state and the animal welfare organizations in that one state. 
+
+This project will be using the Petfinder Application Programming Interface (API). This database allows us to use data on hundreds of thousands of animals ready for adoption over ten thousand animal welfare organizations. We will use this API to build a Shiny application to allow users, who do not necessarily have any statistics background, to interact with the data and view it via some graphical visualizations, in addition to searching for animals based on different preferences and characteristics. 
+
