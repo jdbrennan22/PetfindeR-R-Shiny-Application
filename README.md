@@ -14,6 +14,8 @@ To get started, we created a Petfinder account. Once creating the count, we were
 Since this is a RESTful API, it uses reliable URLs to retrieve resources and, in the event of an error, will return meaningful HTTP response codes. This enables the use of GET, POST, and HTTP authentication, which standard HTTP clients understand. The API then supports cross-origin resource sharing, allowing us to use it securely from a client-side web application. We then used the API by sending requests with a specific structure to our servers. In order to maintain security, the API uses access tokens for API requests. 
 After receiving access to the database, we were also able to access the data through installing the package, “Petfinder” and calling the “Petfinder” library on R. Using various functions in R we were then able to organize the data and narrow it down to California organizations and specific types of animals we are interested in learning the status of for adoption. Since the database and library were very large, we converted the database into a CSV file with relevant information for our application such as organization ID, URL to adoption website, age, gender, breeds and more. 
 
+Another option, is to download petfindeR package in R, by `library(petfindeR)`. Check out the package vignette here: https://cran.r-project.org/web/packages/PetfindeR/vignettes/Introduction_to_PetfindeR.html 
+
 ## Userguide 
 	How to Use Petfinder ©:
 Designed for new and experienced pet owners, looking to adopt an animal in California. 
